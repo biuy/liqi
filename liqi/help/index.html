@@ -1,0 +1,192 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>使用说明</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/offcanvas.css" rel="stylesheet">
+  </head>
+
+  <body class="bg-light">
+
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">功能</a>
+      <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">复读<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="randomreply.html">随机回复</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cmd.html">cmd命令</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pixiv.html">Pixiv</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="baidu.html">百度识图</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ifly.html">讯飞文字转语音</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="latex.html">Latex公式渲染</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ip.html">ip地址信息查询</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="clock.html">整点报时</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="manager.html">管理员指令</a>
+          </li>
+  
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="c.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">python与c</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="c.html">运行c</a>
+              <a class="dropdown-item" href="python.html">运行python</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="settings.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">丽琪的本质</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="settings.html">查看允许的指令</a>
+              <a class="dropdown-item" href="help.html">查看帮助</a>
+              <a class="dropdown-item" href="info.html">关于</a>
+            </div>
+          </li>
+          <li class="nav-item text-right">
+            <a class="nav-link mylight" style="font-size:0.5em" href="copyright.html">Copyright © fyr. All rights reserved.</a>
+          </li>
+        </ul>
+        
+      
+
+      </div>
+    </nav>
+    
+    <div class="nav-scroller bg-white box-shadow">
+      <nav class="nav nav-underline">
+        <p class="mylight text-muted p-3">注：若指令第一行为admin，表示此指令需要管理员权限</p>
+        <!--
+        <p class="nav-link active">这里是一些链接</p>
+
+        <a class="nav-link" href="#">但是什么也没有
+          <span class="badge badge-pill bg-light align-text-bottom">0</span>
+        -->
+        </a>
+      </nav>
+    </div>
+
+    <main role="main" class="container">
+      <div class="d-flex align-items-center p-3 my-3 text-white-50 bg-pink rounded box-shadow">
+        <img class="mr-3" src="../img/liqi.jpeg" alt="" width="90" height="90">
+        <div class="lh-100">
+          <h6 class="mb-0 text-white lh-100">机器人使用说明</h6>
+          <small>Copyright © fyr. All rights reserved.</small>
+        </div>
+      </div>
+
+      <div class="my-3 p-3 bg-white rounded box-shadow">
+       
+        <div class="d-flex justify-content-between align-items-center border-bottom border-gray">
+          <h2 class="bg-darkpink">复读</h2>
+          <p class="text-muted mylight">人类的本质</p>
+        </div>
+        <div class="text-muted pt-3">
+          <p class="pb-3 mb-0 lh-125">
+            复读群消息。默认每条消息有5%概率被复读。
+          </p>
+        </div>
+      </div>
+
+      <div class="my-3 p-3 bg-lightpink  rounded box-shadow">
+        <div class="d-flex justify-content-between align-items-center border-bottom border-gray">
+          <h5 class="text-gray-dark bg-lightgray">修改某人复读概率</h5>
+        </div>
+        <div class="text-muted bg-lightgray">
+          <span class="d-block p-3" style="font-size: 1.0em;">
+            <ul class="navbar-nav">
+              <li>admin</li>
+              <li>repeatprob [QQ号] [概率]</li>
+            </ul>
+          </span>
+        </div>
+      </div>
+
+      <div class="my-3 p-3 bg-white rounded box-shadow">
+        <div class="d-flex justify-content-between align-items-center border-bottom border-gray">
+          <h6 class="text-gray-dark bg-lightgray ">例子</h6>
+        </div>
+        <div class="text-muted bg-lightgray">
+          <span class="d-block p-3" style="font-size: 1.0em;">
+            <ul class="navbar-nav">
+              <li>admin</li>
+              <li>repeatprob 123456789 50</li>
+            </ul>
+          </span>
+        </div>
+      </div>
+
+
+      <div class="my-3 p-3 bg-lightpink rounded box-shadow">
+        <div class="d-flex justify-content-between align-items-center border-bottom border-gray">
+          <h5 class="text-gray-dark bg-lightgray">开关全局复读</h5>
+        </div>
+        <div class="text-muted bg-lightgray">
+          <span class="d-block border-bottom border-gray p-3" style="font-size: 1.0em;">
+            <ul class="navbar-nav">
+              <li>admin</li>
+              <li>repeat on</li>
+            </ul>
+          </span>
+          <span class="d-block p-3" style="font-size: 1.0em;">
+            <ul class="navbar-nav">
+              <li>admin</li>
+              <li>repeat off</li>
+            </ul>
+          </span>
+        </div>
+      </div>      
+    </main>
+
+    <footer>
+      <div class="text-center">
+        <small class="mylight text-muted">Copyright © fyr. All rights reserved.</small>
+      </div>
+      <div class="text-center pb-2">
+        <small class="mylight bg-darkpink">Template Designed © biu. All rights reserved.</small>
+      </div>
+    </footer>
+    
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/holder.min.js"></script>
+    <script src="../js/offcanvas.js"></script>
+  </body>
+</html>
